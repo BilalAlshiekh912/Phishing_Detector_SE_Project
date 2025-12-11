@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>PhishGuard</h2>
+    </div>
+
+    <div class="section">
+        <label>Website Scanner</label>
+        <button id="btn-url">SCAN CURRENT TAB</button>
+        <p id="res-url" class="status">Ready</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section">
+        <label>Email Scanner</label>
+        <textarea id="txt-email" placeholder="Paste email text here..."></textarea>
+        <button id="btn-email" class="secondary">SCAN TEXT</button>
+        <p id="res-email" class="status">Ready</p>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
